@@ -1,0 +1,41 @@
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background-color: #C4C4C4;
+}
+#datos{
+    text-align: left;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+#formacion{
+    text-align: left;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+#exp{
+    text-align: left;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: #ffffff;
+    font-size: 20px;
+}
