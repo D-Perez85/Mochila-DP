@@ -1,41 +1,97 @@
-div{
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+header{
     text-align: center;
+    width: 1440px; 
+    height: 160px;
+    margin:  0px auto;
 }
-h1{
+
+.cont-img{
+    margin: 0 auto;
+}
+
+section{
+  padding: 3px;
+}
+.cont-title{
     text-align: center;
     color: #005677;
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
     background-color: #C4C4C4;
+    line-height: 38px;
 }
-#datos{
-    text-align: left;
-    color: #005677;
+.datos{
+    width: 1440px; 
+     text-align: left;
+    color: #005677; 
+    margin:  0px auto;
+    padding: 5px;
+}
+
+.formacion, .experiencia{
+  background-color: #C4C4C4;    
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.subtitle{
+    margin-top: 140px;
+    background-color: #C4C4C4;    
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    background-color: #C4C4C4;
 }
-span{
-    font-style: italic;
-    font-weight: bold;
+
+li{
+color: black;}
+
+
+.lista-sin-estilo {
+  list-style: none;
+  padding-left: 5px;
 }
-#formacion{
-    text-align: left;
-    color: #005677;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: #C4C4C4;
+.en-linea {
+  display: flex;
+  margin-bottom: 1rem;
 }
-#exp{
-    text-align: left;
-    color: #005677;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
-    background-color: #C4C4C4;
+.en-negrita {
+  font-weight: bold;
+  margin-bottom: 0;
 }
+
+.arriba {
+  margin-left: 1rem;
+  margin-top: 0;
+}
+
 footer{
-    text-align: center;
-    background-color: #005677;
-    color: #ffffff;
-    font-size: 20px;
+  width: 1440px;
+  margin: 90px auto;
+  text-align: center;
+  background-color: #005677;
+  color: #ffffff;
+  font-size: 20px;
+  height: 40px;
+
 }
+
+.texto-footer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+} 
+
+.icono-redes-sociales {
+  width: 20px;
+}
+
+#a{
+list-style: none;}
+
+
