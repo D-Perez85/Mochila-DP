@@ -1,0 +1,128 @@
+header div{
+    margin-top: 10px;
+}
+
+
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    background-color: #C4C4C4;
+}
+#datos{
+    text-align: left;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+span{
+    font-style: italic;
+    font-weight: bold;
+}
+#formacion{
+    text-align: left;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+#exp{
+    text-align: left;
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #C4C4C4;
+}
+footer{
+    text-align: center;
+    background-color: #005677;
+    color: #ffffff;
+    font-size: 20px;
+}
+/* START */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    height: 188.19px;
+    margin-top: 15px;
+    font-style: bold;
+  }
+  
+  .logo-batman {
+    width: 100px;
+    height: 146.37px;
+  }
+
+  /* Font family: Times New Roman
+Font style: Bold
+Font size: 35px
+Line height: 30px
+Line height: 85%
+Align: Left
+Vertical align: Top */
+  
+  .titulo {
+    background-color: #c4c4c4;
+    color: #005677;
+    letter-spacing: 7px;
+    line-height: 30px;
+    padding-left: 1rem;
+  }
+  
+  .principal {
+    line-height: 60px;
+    margin-top: 0;
+    margin-bottom: 7rem;
+    text-align: center;
+  }
+  
+  .en-negrita {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .arriba {
+    margin-left: 1rem;
+    margin-top: 0;
+  }
+  
+  .en-linea {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .lista-sin-estilo {
+    list-style: none;
+    padding-left: 5px;
+  }
+  
+  footer {
+    background-color: #005677;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 37px;
+  }
+  
+  .texto-footer {
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+  }
+  
+  .icono-redes-sociales {
+    width: 20px;
+    padding-left: 2rem;
+  }
+  
