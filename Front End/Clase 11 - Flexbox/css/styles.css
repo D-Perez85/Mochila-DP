@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+header,
+.cont-footer {
+    background-color: black;
+    width: 1024px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+    align-items: center;
+    font-size: 19px;
+}
+
+.img-logo {
+    padding-left: 20px;
+}
+
+nav {
+    width: 380px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    width: 960px;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background: #e2d6d6;
+}
+
+.cont-delivery {
+    width: 493px;
+    height: 100%;
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    margin-right: 1px;
+}
+
+.title-delivery {
+    font-size: 24px;
+    color: #FC200C;
+    font-weight: bold;
+    position: relative;
+    top: 19px;
+    left: 15px;
+}
+
+.title-delivery span {
+    color: white;
+}
+
+.cont-lista-pizza {
+    width: 493px;
+    height: 100%;
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1px;
+}
+
+.title-lista {
+    text-align: center;
+    font-size: 24px;
+    color: #FC200B;
+    position: relative;
+    left: 10px;
+}
+
+.cont-top5 {
+    width: 385px;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 140px;
+}
+
+.title-top {
+    position: relative;
+    top: 40px;
+    left: 81px;
+    font-size: 20px;
+}
+
+section div ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-footer-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.footer-height {
+    height: 150px;
+}
+
+.footer-nav {
+    height: 115px;
+    display: flex;
+    font-size: 17px;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+.footer-logo {
+    padding-right: 20px;
+}

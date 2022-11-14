@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: 20px auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+h1, h2{
+    width: 1024px;
+    margin: 0 auto;
+    font-weight: 400;
+}
+h1{
+    height: 101px;
+    background-color: #00669F;
+    font-size: 40px;
+    line-height: 18px;
+    padding-left: 28px;
+    padding-top: 28px;
+    padding-bottom: 26px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+h2{
+    background-color: #1CD1B0;
+    height: 38px;
+    font-size: 15px;
+    line-height: 18px;
+    padding-left: 27px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main{
+    width: 960px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container-hero{
+    display: block;
+    width: 300px;
+    height: 336px;
+    text-align: center;
+    padding-top: 293px;
+    margin: auto;
+    position: relative;
+    z-index: 10; 
+}
+#corazon{
+    position: absolute;
+    left: 21px;
+    top: 300px;
+    z-index: 20;
+}
+#foto-perfil{
+    position: absolute;
+    border-radius: 50%;
+    top: 424px;
+    left: 90px;
+    z-index: 100;
+}
+.container-data-hero{
+    background-color: #F3F3F3;
+    height: 336px;
+    position: relative;
+    z-index: 30;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    top:-4px
+}
+
+h4{
+    position: absolute;
+    left: 89px;
+    top: 74px;
+    z-index: 32;
+    font-size: 30px;
+}
+
+p{
+    margin: 16px;
+    position: absolute;
+    top: 119px;
+    text-align: left;
+}
+button{
+    width: 130px;
+    height: 49px;
+    top: 270px;
+    position: relative;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 15px;
+    border: none;
+}
+
+footer{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 580px;
+
+}
+h5{
+    background-color: #00669F;
+    font-size: 16px;
+    position: relative;
+    color: #FFF9F9;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    width:100%
+}

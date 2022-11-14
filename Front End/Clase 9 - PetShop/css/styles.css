@@ -1,0 +1,233 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    background-color: #222222;
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+
+div.top,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-top {
+    width: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+}
+
+.menu-ppal {
+    width: 1020px;
+    margin: 0 auto;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont-img {
+    align-self: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 340px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+.section-banner {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+}
+
+.container-productos {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.data-productos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+.items-prod {
+    color: #222222;
+}
+
+.container-article {
+    display: flex;
+    width: 1020px;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+.price {
+    color: #F0A83E;
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+form h3 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
+.input-form {
+    width: 340px;
+    height: 27px;
+    background-color: #3C2313;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn,
+.reset-btn {
+    margin: 5px;
+    width: 140px;
+    height: 23px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    color: white;
+
+}
+
+.submit-btn {
+    background-color: #F0A83E;
+}
+
+.reset-btn {
+    background-color: #8A8787;
+}
+
+.logotipo-news {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: white;
+
+}
+
+.submit-news {
+    width: 40%;
+}
+
+.container-news {
+    width: 1020px;
+    display: flex;
+    margin: 40px auto;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    align-items: center;
+
+}
+
+input {
+    width: 260px;
+    height: 24px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+}
+
+.submit-new {
+    width: 110px;
+    height: 26px;
+    background-color: #3C2313;
+    margin: 5px;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+footer {
+    width: 1020px;
+    background-color: #69564a;
+    margin: -40px auto;
+    border: none;
+}
+
+.container-articles {
+    width: 50%;
+
+}
+
+.article {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+.logotipo-footer {
+
+    position: relative;
+    left: 652px;
+    bottom: 210px;
+}
+
+.title-footer {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.detalle-footer {
+    color: #8A8787;
+    font-size: 18px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Roboto';
+    background-color: #222222;
+    color: white;
+    font-weight: bold;
+}
