@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    width: 420px;
+    margin: 0 auto;
+}
+
+header {
+    width: 400px;
+    margin: 20px auto;
+}
+
+h1,
+h2 {
+    margin: 0 auto;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+footer {
+    background-color: #00669F;
+    color: #ffff;
+}
+
+h1 {
+    height: 4.5rem;
+    font-size: 1.7rem;
+    padding-left: 1.7rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+}
+
+h2 {
+    background-color: #D1891C;
+    height: 1.4rem;
+    font-size: 0.8rem;
+    padding-left: 1.2rem;
+    padding-top: 0.2rem;
+}
+
+main {
+    width: 100%;
+}
+
+.container-hero {
+    width: 60vw;
+    height: 480px;
+    text-align: center;
+    margin: 15px auto;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 170px;
+    background-image: url('../img/bgbatman.png');
+    border-radius: 20px 20px 0px 0px;
+}
+
+#foto-perfil {
+    position: relative;
+    border-radius: 50%;
+    top: -130px;
+    width: 100px;
+}
+
+.header-img {
+    position: relative;
+    top: -180px;
+    left: -170px;
+}
+
+#corazon {
+    width: 1.5rem;
+}
+
+h4 {
+    margin-top: -120px;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-style: regular;
+}
+
+p {
+    width: 100%;
+    text-align: left;
+    font-size: 0.8rem;
+    font-family: 'Roboto';
+    margin-top: 6px;
+    padding: 6px;
+}
+
+button {
+    width: 6rem;
+    height: 2rem;
+    margin-top: 1.4rem;
+    background-color: #00669F;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border: none;
+}
+
+.hquinn {
+    display: none;
+}
+
+footer {
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+span {
+    width: 191px;
+    font-family: 'Roboto';
+    margin-left: 35px;
+}
+
+#logo-gh {
+    width: 40px;
+    transform: translate(47px, 0px);
+}
+
+@media (min-width: 421px) {
+    body {
+        width: 720px;
+        overflow-x: hidden;
+    }
+
+    .header-ppal {
+        width: 100%;
+    }
+
+    h1 {
+        height: 5rem;
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+
+    h2 {
+        height: 1.5rem;
+        font-size: 1rem;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-hero {
+        width: 40%;
+        height: 600px;
+    }
+
+    .bg-img {
+        height: 13rem;
+    }
+
+    #foto-perfil {
+        top: -120px;
+        width: 120px;
+    }
+
+    .header-img {
+        top: -220px;
+    }
+
+    #corazon {
+        width: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1.7rem;
+    }
+
+    p {
+        font-size: 1rem;
+        margin-top: 7px;
+        padding: 7px;
+    }
+
+    button {
+        width: 6rem;
+        height: 2.2rem;
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    span {
+        margin-left: 3.5rem;
+    }
+
+    #logo-gh {
+        width: 3.2rem;
+        transform: translate(110px, 0px);
+    }
+}
+
+@media (min-width: 721px) {
+    body {
+        width: 1300px;
+    }
+    main{
+        width: 85%;
+    }
+
+    h1 {
+        height: 6rem;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+    }
+
+    h2 {
+        height: 1.8rem;
+        font-size: 1.3rem;
+    }
+
+    .container-hero {
+        width: 34%;
+        height: 760px;
+    }
+
+    .bg-img {
+        height: 15rem;
+    }
+
+    #foto-perfil {
+        top: -150px;
+        width: 140px;
+    }
+
+    .header-img {
+        top: -250px;
+        left: -170px;
+    }
+
+    #corazon {
+        width: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+        margin-top: -140px;
+    }
+
+    p {
+        font-size: 1.4rem;
+        margin-top: 9px;
+        padding: 9px;
+    }
+
+    button {
+        width: 8.5rem;
+        height: 2.6rem;
+        font-size: 1.6rem;
+    }
+
+    .hquinn {
+        display: inline;
+    }
+
+    footer {
+        font-size: 1.5rem;
+    }
+
+    #logo-gh {
+        width: 4.2rem;
+        transform: translate(300px, 0px);
+    }
+}
