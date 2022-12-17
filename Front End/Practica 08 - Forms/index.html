@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practica Formulario</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+</head>
+<body>
+    <header>
+        <div class="top">
+            <span> 20% de descuento en todos los productos </span>
+        </div>
+        <div class="header">
+            <img src="./img/Rectangle.png" alt="logo-tienda" class="img" />
+            <span>Nombre Tienda</span>
+        </div>
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li>Contacto</li>
+                    <li>Registrarse</li>
+                    <li>Ingresar</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form action="#" method="post">
+                <h1>Añadí tu super!</h1>
+                <p>Agregá tu personaje favorito completando las opciones</p>
+                <div class="container-sections">
+                    <section>
+                        <div class="flex">
+                            <label for="nombre" for="nombre">Nombre</label>
+                            <input type="text" class="input-size" placeholder="Gabriela" required />
+                        </div>
+                        <div class="flex">
+                            <label for="fecha" for="fecha">Fecha</label>
+                            <input type="date" class="input-size" required />
+                        </div>
+                        <div class="flex">
+                            <input class="textarea flex" type="textarea" required />
+                        </div>
+                    </section>
+                    <section>
+                        <div class="flex">
+                            <label for="">Especie</label>
+                            <select name="select" id="select" required>
+                                <option value=""></option>
+                                <option value="a">Alien</option>
+                                <option value="b">Terricola</option>
+                                <option value="c">Animaloide</option>
+                                <option value="d">Unknow</option>
+                            </select>
+                        </div>
+                        <div class="flex">
+                            <label for="file" for="file">Agregar Foto</label>
+                            <input type="file" id="input-file" value="Adjuntar documento" accept=".png,.jpg,.jpeg,.svg" required />
+                        </div>
+                        <div class="flex align-checkbox">
+                            <h2>Poderes</h2>
+                            <label for="volar">
+                                <input type="checkbox" class="checkbox" id="volar" name="volar" />
+                                Volar</label>
+                            <label for="superinteligencia">
+                                <input type="checkbox" class="checkbox" id="superinteligencia" name="superinteligencia"
+                                    checked />
+                                Superinteligencia</label>
+                            <label for="vistalaser">
+                                <input type="checkbox" class="checkbox" id="vistalaser" name="vistalaser" />
+                                Vista de rayo laser</label>
+                            <label for="billetera">
+                                <input type="checkbox" class="checkbox" id="billetera" name="billetera" />
+                                Billetera</label>
+                        </div>
+                        <div class="flex">
+                            <h2>Tipo de Personaje</h2>
+                            <label class="radio-button" for="heroe">
+                                <input type="radio" name="heroe" id="heroe" />
+                                Heore / Heróina</label>
+                            <label class="radio-button" for="villano">
+                                <input type="radio" name="villano" id="villano" checked />
+                                Villano / Villana</label>
+                        </div>
+                    </section>
+                </div>
+                <button type="submit" id="submit">Añadir</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <span>Todos los derechos reservados a FRONT END</span>
+    </footer>
+</body>
+
+</html>
