@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/************ HEADER ************/
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 6px;
+  margin: 0 auto;
+  width: 95%;
+}
+header h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header .btn-menu {
+  height: 27px;
+  width: 27px;
+}
+header nav {
+  display: none;
+}
+header ul {
+  display: flex;
+}
+header li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+/************ SECTION ASIDE ************/
+.container-aside div {
+  margin-top: 25px;
+}
+.container-aside h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 55px;
+  line-height: 70px;
+  letter-spacing: 10px;
+  padding: 15px 30px 10px;
+}
+.container-aside .aside-text-p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  padding: 30px;
+}
+.container-aside .decoration-title {
+  background-color: #03faee;
+  height: 50px;
+  left: 29px;
+  position: relative;
+  top: 61px;
+  width: 216px;
+  z-index: -1;
+}
+.container-aside .button-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.container-aside button {
+  background-color: #03faee;
+  border: dotted 0.5px black;
+  border-radius: 5px;
+  height: 50px;
+  margin: 15px;
+  width: 100px;
+  text-transform: capitalize;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-aside .aside-image > img {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/************ SECTION ARTICLE ************/
+article {
+  padding-top: 3px;
+}
+
+.article-card {
+  background-color: #f8f8f8;
+  padding: 15px 20px 50px 20px;
+  margin: 25px auto;
+  width: 80%;
+  z-index: -2;
+}
+
+.card-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: -6px 0px #92f7f2;
+  border: solid 1px black;
+  padding: 5px 0px 20px 5px;
+}
+
+.card-decoration {
+  background-color: #03faee;
+  height: 15px;
+  left: -3px;
+  position: relative;
+  top: 28px;
+  width: 28px;
+  z-index: 0;
+}
+
+.card-title {
+  font-weight: bold;
+  text-transform: capitalize;
+  padding: 15px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.card-message {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.9px;
+}
+
+/************ FOOTER ************/
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 45px;
+}
+footer img {
+  width: 50px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+}
+.social-media img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: -6px 0px #92f7f2;
+  padding: 10px;
+}
+
+/************ MEDIAS QUERIES ************/
+@media (min-width: 481px) {
+  header .btn-menu {
+    display: none;
+  }
+  header nav {
+    display: block;
+  }
+  header nav li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .container-aside {
+    display: flex;
+    margin-top: 30px;
+  }
+  .container-aside .aside-text {
+    padding: 80px 24px;
+  }
+  .container-aside .aside-text h2 {
+    letter-spacing: 15px;
+  }
+  .container-aside .aside-text .decoration-title {
+    width: 245px;
+  }
+  .container-aside .aside-text .button-container {
+    justify-content: start;
+    padding-left: 10px;
+  }
+  .container-aside .aside-text .button-container button:hover {
+    cursor: pointer;
+    scale: 1.1;
+    font-weight: 600;
+  }
+  .container-aside .aside-image > img {
+    width: 780px;
+  }
+  .container-article {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+  }
+  footer {
+    flex-direction: row;
+  }
+  footer p {
+    padding-top: 0;
+  }
+  footer img:hover {
+    background-color: #e5dada;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=styles.css.map */

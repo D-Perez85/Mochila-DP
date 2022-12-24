@@ -1,0 +1,17 @@
+@mixin button{
+    background-color: #03faee;
+    border: dotted 0.5px black;
+    border-radius: 5px;
+    height: 50px;
+    margin: 15px;
+    width: 100px;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+@mixin rounded {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: -6px 0px #92f7f2;
+}
