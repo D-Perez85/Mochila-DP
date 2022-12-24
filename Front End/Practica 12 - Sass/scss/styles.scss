@@ -1,0 +1,103 @@
+@import 'variables';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: $font_family_1;
+    background-color: #d2d2d2;
+}
+.conteiner__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h1{
+    border-bottom: 1px solid gray;
+    margin: 5%;
+    padding-bottom: 5px;
+}
+.card{
+    background-color: $fondoSecundario;
+    box-shadow: 0px 10px 10px -6px black;
+    display: flex;
+    flex-direction: column;
+    margin:1%;
+    position: relative;
+    
+    &:hover{
+        opacity: 80%;
+    }
+    &__imagen{
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        position: relative;     
+    }
+    &__fecha{
+        position: absolute;   
+        top: 250px; 
+        left: 20px;
+        color: $fondoPrimario;
+    }
+    &__texto{
+        padding: 20px;
+        color: $textoSecundario;
+    }
+    &__boton{
+        align-self: flex-end;
+        padding: 10px 30px;
+        margin: 10%;
+        box-shadow: 0px 10px 10px -6px $textoSecundario;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &:nth-child(1) &__imagen{
+        background-image: url("../assets/1.jpeg");
+    }
+    &:nth-child(2) &__imagen{
+        background-image: url("../assets/2.jpeg");
+    }
+    &:nth-child(3) &__imagen{
+        background-image: url("../assets/3.jpeg");
+    }
+    &:nth-child(4) &__imagen{
+        background-image: url("../assets/4.jpeg");
+    }
+    &:nth-child(5) &__imagen{
+        background-image: url("../assets/5.jpeg");
+    }
+    &:nth-child(6) &__imagen{
+        background-image: url("../assets/6.jpeg");
+    }
+    &:nth-child(7) &__imagen{
+        background-image: url("../assets/7.jpeg");
+    }
+    &:nth-child(8) &__imagen{
+        background-image: url("../assets/8.jpeg");
+    }
+    &:nth-child(9) &__imagen{
+        background-image: url("../assets/9.jpeg");
+    }
+    &:nth-child(10) &__imagen{
+        background-image: url("../assets/10.jpeg");
+    }
+    &:nth-child(11) &__imagen{
+        background-image: url("../assets/11.jpeg");
+    }
+    &:nth-child(12) &__imagen{
+        background-image: url("../assets/12.jpeg");
+    }
+
+
+    // @for $i from 1 through 12 {
+    //     $imagen: '../assets/' + $i + '.jpeg';
+    //     &:nth-child(#{$i}) &__imagen{
+    //         background-image: url($imagen);
+    //     }
+    // }
+}
