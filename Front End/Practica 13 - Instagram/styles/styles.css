@@ -1,0 +1,223 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.none {
+  display: none;
+}
+
+main {
+  padding: 25px 0;
+}
+
+header {
+  align-items: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1490196078);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+header h1 {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+header input {
+  border: 1px solid rgba(0, 0, 0, 0.368627451);
+  border-radius: 4px;
+  display: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+  padding: 7px;
+  width: 300px;
+}
+header img {
+  border-radius: 25px;
+  height: 49px;
+  width: 50px;
+}
+
+section.aside__images {
+  border: 2px solid rgba(0, 0, 0, 0.1490196078);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px auto;
+  padding: 12px;
+  width: 93%;
+}
+section.aside__images img {
+  border-radius: 25px;
+}
+
+.card {
+  padding-top: 10px;
+}
+.card__profile {
+  align-items: center;
+  display: flex;
+}
+.card__profile > p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 8px;
+}
+.card__image {
+  background-image: url(../assets/fotoPerfil0.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 414px;
+  margin: 10px auto;
+  margin-top: 15px;
+  width: 94%;
+}
+.card__icons {
+  width: 32%;
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.card__message {
+  padding: 9px 0px 0px 15px;
+}
+.card__message p {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 13px;
+  padding-bottom: 7px;
+}
+.card__message span {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.card__message .card__comments {
+  color: #A49B9B;
+}
+.card__message h5, .card__message h5.card__posts {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 700;
+  padding-top: 13px;
+}
+.card__message :last-child {
+  padding: 4px 0 25px 0;
+}
+
+article {
+  border: 2px solid rgba(0, 0, 0, 0.1490196078);
+  border-radius: 4px;
+  margin: 0 auto;
+  width: 93%;
+}
+article .more {
+  height: 3px;
+  width: 3px;
+}
+
+footer {
+  background: #222222;
+  color: white;
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 12px;
+  line-height: 21px;
+  margin: 0 auto;
+  text-align: center;
+  width: 93%;
+}
+
+@media (min-width: 481px) {
+  .none {
+    display: inline;
+  }
+  header {
+    margin: 0 auto;
+    width: 98%;
+  }
+  header input {
+    display: inline;
+  }
+  header h1 {
+    transform: translate(120px, 0px);
+  }
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+  }
+  main .aside__left {
+    width: 48%;
+  }
+  main .aside__left .card__image {
+    background-position-x: right;
+    height: 600px;
+  }
+  main .aside__left .card__icons {
+    width: 25%;
+  }
+  main .aside__right {
+    padding-top: 50px;
+    width: 28%;
+  }
+  main .aside__right .profile {
+    display: flex;
+    justify-content: space-between;
+  }
+  main .aside__right .profile__image {
+    border-radius: 25px;
+    height: 49px;
+    transform: translate(50px, 10px);
+    width: 51px;
+  }
+  main .aside__right .profile span {
+    color: #1ca0f6;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 70px;
+    transform: translate(5px, 0px);
+  }
+  main .aside__right .profile__data p {
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    padding: 25px 0 0 0px;
+    transform: translate(-16px, 0px);
+  }
+  main .aside__right .profile__nickname {
+    height: 11px;
+    transform: translate(-16px, -2px);
+  }
+  main .aside__right .suggestions {
+    padding: 60px 0 0 90px;
+  }
+  main .aside__right .suggestions h5 {
+    color: #808080;
+    font-family: "Inter", sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 10px;
+    padding-bottom: 6px;
+  }
+  main .aside__right .suggestions .suggestion__user {
+    align-items: center;
+    display: flex;
+  }
+  main .aside__right .suggestions .suggestion__user img {
+    border-radius: 25px;
+    width: 28px;
+  }
+  main .aside__right .suggestions .suggestion__user p {
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  main .aside__right .suggestions .suggestion__user span {
+    color: #1ca0f6;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 40px;
+    transform: translate(130px, 0px);
+  }
+}/*# sourceMappingURL=styles.css.map */

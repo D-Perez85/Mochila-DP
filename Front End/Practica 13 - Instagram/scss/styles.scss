@@ -1,0 +1,231 @@
+@import "variables.scss";
+@import "mixin.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.none {
+  display: none;
+}
+
+main {
+  padding: 25px 0;
+}
+
+header {
+  align-items: center;
+  border-bottom: $border;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+
+  h1 {
+    font-family: $font-family_1;
+  }
+
+  input {
+    border: 1px solid #0000005e;
+    border-radius: 4px;
+    display: none;
+    font-family: $font-family_1;
+    padding: 7px;
+    width: 300px;
+  }
+
+  img {
+    border-radius: 25px;
+    height: 49px;
+    width: 50px;
+  }
+}
+
+section.aside__images {
+  @include border;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 25px auto;
+  padding: 12px;
+  width: 93%;
+    img {
+      border-radius: 25px;
+    }
+}
+
+.card {
+  padding-top: 10px;
+    &__profile {
+      align-items: center;
+      display: flex;
+    }
+    &__profile>p {
+      font-family: $font-family_2;
+      font-size: 15px;
+      font-weight: 500;
+      padding-left: 8px;
+    }
+    &__image {
+      background-image: url(../assets/fotoPerfil0.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 414px;
+      margin: 10px auto;
+      margin-top: 15px;
+      width: 94%;
+    }
+    &__icons {
+      width: 32%;
+      padding-left: 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+    &__message {
+      padding: 9px 0px 0px 15px;
+    & p {
+      font-family: $font-family_1;
+      font-size: 13px;
+      padding-bottom: 7px;
+    }
+    & span {
+      font-family: $font-family_1;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    & .card__comments {
+      color: #A49B9B;
+    }
+    & h5, h5.card__posts {
+      font-family: $font-family_1;
+      font-weight: 700;
+      padding-top: 13px;
+    }
+    & :last-child {
+      padding: 4px 0 25px 0;
+    }
+  }
+}
+
+article {
+  @include border;
+  margin: 0 auto;
+  width: 93%;
+    .more {
+      height: 3px;
+      width: 3px;
+    }
+}
+
+footer {
+  background: #222222;
+  color: white;
+  font-family: $font-family_1;
+  font-size: 12px;
+  line-height: 21px;
+  margin: 0 auto;
+  text-align: center;
+  width: 93%;
+}
+
+@media (min-width: 481px) {
+  .none {
+    display: inline;
+  }
+
+  header {
+    margin: 0 auto;
+    width: 98%;
+    input {
+      display: inline;
+    }
+    h1 {
+      transform: translate(120px, 0px);
+    }
+  }
+
+  main {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    .aside__left {
+      width: 48%;
+        & .card__image {
+          background-position-x: right;
+          height: 600px;
+        }
+      .card__icons {
+        width: 25%;
+    }
+  }
+    .aside__right {
+      padding-top: 50px;
+      width: 28%;
+      .profile {
+        display: flex;
+        justify-content: space-between;
+          &__image {
+            border-radius: 25px;
+            height: 49px;
+            transform: translate(50px, 10px);
+            width: 51px;
+          }
+          & span {
+            color: #1ca0f6;
+            font-family: "Inter", sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            line-height: 70px;
+            transform: translate(5px, 0px);
+          }
+         &__data {
+            p {
+              font-family: $font-family_2;
+              font-size: 17px;
+              padding: 25px 0 0 0px;
+              transform: translate(-16px, 0px);
+            }
+          }
+          &__nickname {
+            height: 11px;
+            transform: translate(-16px, -2px);
+          }
+        }
+    .suggestions {
+      padding: 60px 0 0 90px;
+          & h5 {
+            color: #808080;
+            font-family: "Inter", sans-serif;
+            font-size: 11px;
+            font-weight: 700;
+            line-height: 10px;
+            padding-bottom: 6px;
+          }
+          & .suggestion__user {
+            align-items: center;
+            display: flex;
+            & img {
+              border-radius: 25px;
+              width: 28px;
+            }
+            & p {
+              color: #000000;
+              font-family: $font-family_2;
+              font-size: 13px;
+              padding-left: 10px;
+            }
+            & span {
+              color: #1ca0f6;
+              font-family: "Inter", sans-serif;
+              font-size: 12px;
+              font-weight: 400;
+              letter-spacing: 1.5px;
+              line-height: 40px;
+              transform: translate(130px, 0px);
+            }
+        }
+      }
+    }
+  }
+}
